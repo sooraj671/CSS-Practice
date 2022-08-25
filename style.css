@@ -1,0 +1,182 @@
+/* Relative Units -> dependents on the screen V/S Absolute Unit -> cm, m, inches */
+
+body{
+    /* background: url("https://i.stack.imgur.com/jGlzr.png"); */
+    /* background-image: url("./wal.jpeg");
+    background-size: cover;
+    background: linear-gradient(to top, yellow, orange);
+    text-transform: uppercase ; */
+}
+
+.container-1{
+    height: 300px;
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.container-2{
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.container-3{
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.container-4{
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.container-5{
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container-1>div, .container-2>div, .container-3>div, .container-4>div, .container-5>div{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    width: 70px;
+    line-height: 50px;
+    background: green;
+}
+
+.div-text{
+    align-self: center;
+    width: 50%;
+    height: 50%;
+    text-align: justify;
+}
+
+
+.my-name:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+
+h2:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: blueviolet;
+}
+
+li:nth-child(3){
+    color: orange;
+}
+
+/* li:only-child{
+    color: gray;
+} */
+
+/* unclicked 
+/* #google-link:link{
+    color: yellow;
+
+}
+
+/* clicked 
+#google-link:visited{
+    color: red;
+} 
+*/
+/* single a tag just after h2 */
+h2 + a {
+    color:burlywood; 
+}
+
+/* every button after h1 */
+h1 ~ button {
+    color: yellowgreen;
+}
+
+ul > li{
+    color: tomato;
+}
+
+.div-image{
+    display: none;
+
+    height: 400px;
+    width: 50%;
+    background: linear-gradient(to right, rgb(200,200,300), rgba(100,200,300,0));
+    /* background: linear-gradient(to right, red, blue,green); */
+    /* background: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-color:rgba(122, 122, 144, 0.2) ; */
+    /* background-size: cover;  */
+}
+
+.div-image2{
+    float: right;
+
+    
+    height: 400px;
+    width: 50%;
+    background: linear-gradient(60deg, rgb(200,200,300), rgba(100,200,300,0));
+    
+}
+
+.div-image3{
+        background: url("https://i.stack.imgur.com/jGlzr.png");
+
+    height: 400px;
+    width: 50%;
+    /* background: radial-gradient(circle, red 20%,green,blue 50%,black); */
+    
+}
+
+.link{
+    color: blue;
+    text-decoration: none;
+    
+}
+
+
+#about-us-image{
+    height: 300px;
+    width: 20%;
+    border: 10px double blue;
+    padding: 2 0px;
+    margin: 1 0px;
+    float: right;
+}
+
+p{
+    display: inline-block;
+
+}
